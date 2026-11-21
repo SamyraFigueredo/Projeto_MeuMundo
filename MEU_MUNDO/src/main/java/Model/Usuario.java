@@ -22,7 +22,7 @@ public class Usuario {
         this.dataCadastro = LocalDateTime.now();
     }
 
-    // metodos auxiliares
+    // metodos auxiliares para identificar usuario
     public boolean isCrianca() {
         return perfil == PerfilUsuario.CRIANCA;
     }
