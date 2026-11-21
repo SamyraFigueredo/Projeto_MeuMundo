@@ -8,7 +8,6 @@ public class Usuario {
     private String email;
     private String senhaHash;
     private PerfilUsuario perfil;
-    private Usuario responsavel;
     private LocalDateTime dataCadastro;
 
     public Usuario() {
@@ -23,7 +22,7 @@ public class Usuario {
         this.dataCadastro = LocalDateTime.now();
     }
 
-    // metodos auxiliares
+    // metodos auxiliares para identificar usuario
     public boolean isCrianca() {
         return perfil == PerfilUsuario.CRIANCA;
     }
@@ -74,14 +73,6 @@ public class Usuario {
 
     public void setPerfil(PerfilUsuario perfil) {
         this.perfil = perfil;
-    }
-
-    public Usuario getResponsavel() {
-        return responsavel;
-    }
-
-    public void setResponsavel(Usuario responsavel) {
-        this.responsavel = responsavel;
     }
 
     public LocalDateTime getDataCadastro() {
