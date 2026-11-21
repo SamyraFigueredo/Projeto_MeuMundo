@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="24BED0ED-BEFF-CCA0-BA18-D4247769AB3C" schemaObject="D3BC45E3-BACB-1A3C-0C31-B98A615CBBAB" name="VW_DESENHOS">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>8E47C5A2-73B4-4DA4-180C-1B968833DF9A</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    D.COD_DESENHO,
+    D.TITULO,
+    D.TIPO,
+    D.CAMINHO_PREVIEW,
+    D.DATA_CRIACAO,
+    D.DATA_ATUALIZACAO,
+    U.COD_USUARIO,
+    U.NOME AS NOME_USUARIO,
+    I.COD_IMAGEM,
+    I.NOME AS NOME_IMAGEM,
+    I.CAMINHO_IMAGEM AS IMAGEM_BASE
+FROM TB_DESENHO D
+INNER JOIN TB_USUARIO U
+    ON U.COD_USUARIO = D.COD_USUARIO
+LEFT JOIN TB_IMAGEM I
+    ON I.COD_IMAGEM = D.COD_IMAGEM]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_DESENHO" id="82EF503B-5E0A-8D60-C04B-E1EBCFD1BD6A">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_DESENHO</headerAlias>
+<reference>false</reference>
+<referencedColumn>6A5C45CC-C5BC-2B43-3646-E99FF6F96155</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITULO" id="0B09A52E-85BC-FBA7-2052-FA84061B117B">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>TITULO</headerAlias>
+<reference>false</reference>
+<referencedColumn>EE714ED9-FACA-CE79-4766-54455FDFC68B</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TIPO" id="48681E8E-CD02-437C-8843-236E4DE554D5">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>TIPO</headerAlias>
+<reference>false</reference>
+<referencedColumn>2E3E4D55-56A1-CF38-F67A-128354C8F30D</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CAMINHO_PREVIEW" id="88663D90-11A4-1DDC-3F95-832CD7F61F7B">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (500)</dataType>
+<headerAlias>CAMINHO_PREVIEW</headerAlias>
+<reference>false</reference>
+<referencedColumn>532FFF07-58D4-4233-73E5-B24E8510B4DF</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_CRIACAO" id="85982041-A51D-AA1D-F5AD-CC59880E583F">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DATA_CRIACAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>1D1809DE-F174-D474-5F51-F0E3555BE4E7</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_ATUALIZACAO" id="F60C913A-47C4-A025-F521-EDD7BCB9E49B">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DATA_ATUALIZACAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>A608C98F-F3C4-CAB1-AFCD-7F4D7F4ABAA7</referencedColumn>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+<tableAlias>D</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_USUARIO" id="7C448F2C-088C-2834-5D69-14FE4EE9366B">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_USUARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>39CC4103-596C-06A0-BC13-4D95F3B8EC61</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<tableAlias>U</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_USUARIO" id="120A3E8A-2FAA-A49A-99D5-D09C46469D6C">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_USUARIO</alias>
+<dataType>VARCHAR2 (120)</dataType>
+<headerAlias>NOME_USUARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C975447-604B-D205-22A8-D359FD4E24B5</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_IMAGEM" id="EED3622D-C14F-5E07-3CF5-E0CAC4F5E65A">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_IMAGEM</headerAlias>
+<reference>false</reference>
+<referencedColumn>76B996FB-1719-9434-076B-F4EEE17209D2</referencedColumn>
+<table>F555470E-F0FF-7152-9431-E7ECAFEB3490</table>
+<tableAlias>I</tableAlias>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_IMAGEM" id="C059136F-8445-ECF9-0855-24401B3A42E0">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_IMAGEM</alias>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>NOME_IMAGEM</headerAlias>
+<reference>false</reference>
+<referencedColumn>8E5F5BF4-E9A6-C565-FB20-002861A6FDAF</referencedColumn>
+<table>F555470E-F0FF-7152-9431-E7ECAFEB3490</table>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="IMAGEM_BASE" id="31ECAE15-879E-F840-82D2-D52DD6CDC960">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>IMAGEM_BASE</alias>
+<dataType>VARCHAR2 (500)</dataType>
+<headerAlias>IMAGEM_BASE</headerAlias>
+<reference>false</reference>
+<referencedColumn>F41D8188-73FD-A9EB-8194-07F94B988BDF</referencedColumn>
+<table>F555470E-F0FF-7152-9431-E7ECAFEB3490</table>
+<viewID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</viewID>
+</viewElement>
+</viewElements>
+</TableView>

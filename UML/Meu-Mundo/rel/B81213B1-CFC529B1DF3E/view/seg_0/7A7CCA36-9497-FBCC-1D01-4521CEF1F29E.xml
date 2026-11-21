@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="7A7CCA36-9497-FBCC-1D01-4521CEF1F29E" schemaObject="D3BC45E3-BACB-1A3C-0C31-B98A615CBBAB" name="VW_USUARIOS">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>D5806FFA-D96D-45EA-8318-5A464AB1B11A</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    COD_USUARIO,
+    NOME,
+    EMAIL,
+    PERFIL,
+    COD_RESPONSAVEL,
+    DATA_CADASTRO
+FROM TB_USUARIO]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_USUARIO" id="E89E21EC-189B-2B7D-0094-E415C721DE39">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_USUARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>39CC4103-596C-06A0-BC13-4D95F3B8EC61</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME" id="98C215BD-BD06-89F8-5EC8-1592557C0308">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (120)</dataType>
+<headerAlias>NOME</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C975447-604B-D205-22A8-D359FD4E24B5</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EMAIL" id="06461593-A872-29D8-263E-B1D7B6DCA280">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>EMAIL</headerAlias>
+<reference>false</reference>
+<referencedColumn>5A1ACF77-4B6A-C35E-AAA2-9845455C04E4</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PERFIL" id="E33CB265-4AFF-EB49-D5EE-ADBFB573C0DD">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>PERFIL</headerAlias>
+<reference>false</reference>
+<referencedColumn>EA1B5099-3B6E-976B-FB5A-562654CABA66</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_RESPONSAVEL" id="C0600969-C0FD-AD91-2D3F-525774067F32">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_RESPONSAVEL</headerAlias>
+<reference>false</reference>
+<referencedColumn>027AB4A5-A8F0-734C-FBFE-6A3C9A42B355</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_CADASTRO" id="89BF6DF7-A2F1-8241-1919-31962CEA1C64">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DATA_CADASTRO</headerAlias>
+<reference>false</reference>
+<referencedColumn>9BE632C1-0A69-3F59-34B1-E7C09BEBBAE0</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</viewID>
+</viewElement>
+</viewElements>
+</TableView>

@@ -1,0 +1,220 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<EntityView class="oracle.dbtools.crest.model.design.logical.EntityView" directorySegmentName="seg_0" id="9547E271-80C1-A362-7C0C-8E236F6532B8" name="VW DESENHOS">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    D.COD_DESENHO,
+    D.TITULO,
+    D.TIPO,
+    D.CAMINHO_PREVIEW,
+    D.DATA_CRIACAO,
+    D.DATA_ATUALIZACAO,
+    U.COD_USUARIO,
+    U.NOME AS NOME_USUARIO,
+    I.COD_IMAGEM,
+    I.NOME AS NOME_IMAGEM,
+    I.CAMINHO_IMAGEM AS IMAGEM_BASE
+FROM TB_DESENHO D
+INNER JOIN TB_USUARIO U
+    ON U.COD_USUARIO = D.COD_USUARIO
+LEFT JOIN TB_IMAGEM I
+    ON I.COD_IMAGEM = D.COD_IMAGEM]]></userDefinedSQL>
+<validSQL>false</validSQL>
+<parsed>true</parsed>
+<viewType>EntityView</viewType>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COD_DESENHO" id="191AC91A-E1FB-8B00-E6E0-A23EB10F4582">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>82EF503B-5E0A-8D60-C04B-E1EBCFD1BD6A</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>6D4C2D31-4330-46EE-EC36-990CFA3C6A1D</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TITULO" id="0B6ECBFA-DAB4-C09E-F5F0-ADC97F3679FE">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>0B09A52E-85BC-FBA7-2052-FA84061B117B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (150)</dataType>
+<reference>false</reference>
+<referencedColumn>FEAE6C87-7265-F59D-A350-3053D4FA9057</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="TIPO" id="1A2D22A8-294F-0704-CAA1-E62A50DA1C0B">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>48681E8E-CD02-437C-8843-236E4DE554D5</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<reference>false</reference>
+<referencedColumn>B663DA8A-C822-4F2F-46A5-5F702F3AB257</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="CAMINHO_PREVIEW" id="CAC4BB4B-DE31-165E-787C-5482CE405509">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>88663D90-11A4-1DDC-3F95-832CD7F61F7B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (500)</dataType>
+<reference>false</reference>
+<referencedColumn>77BEBE21-500B-8F72-3418-1EF6116712F0</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DATA_CRIACAO" id="3B739D37-16FC-CBCA-4541-FB754551CAC6">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>85982041-A51D-AA1D-F5AD-CC59880E583F</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>9D72D2A6-A61B-A3BF-3BAC-BB49D01CFC35</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="DATA_ATUALIZACAO" id="2830F056-ECA8-F4EA-91E4-6DACBD2B9FC0">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>F60C913A-47C4-A025-F521-EDD7BCB9E49B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<reference>false</reference>
+<referencedColumn>79ADB819-D7C8-34E7-5F57-E062C052BDAC</referencedColumn>
+<table>24936EE6-A01D-B99E-BC24-E74B03FCAA3C</table>
+<tableAlias>D</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COD_USUARIO" id="BB0296A6-061B-D66A-A206-B030C189B582">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>7C448F2C-088C-2834-5D69-14FE4EE9366B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>FBEA7C28-6A84-29E6-9C7F-2BEA4F248D8A</referencedColumn>
+<table>1BC220D6-B8EA-4814-088B-61536EDFECA0</table>
+<tableAlias>U</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NOME_USUARIO" id="604B41D0-4FA8-D539-AE6E-7660314D08D8">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>120A3E8A-2FAA-A49A-99D5-D09C46469D6C</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_USUARIO</alias>
+<dataType>VARCHAR2 (120)</dataType>
+<reference>false</reference>
+<referencedColumn>BD8AB0A4-5B0B-F592-18EC-2810F130A60B</referencedColumn>
+<table>1BC220D6-B8EA-4814-088B-61536EDFECA0</table>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="COD_IMAGEM" id="EBC43819-2A4A-CFC0-D093-EBBD3D692937">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>EED3622D-C14F-5E07-3CF5-E0CAC4F5E65A</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<reference>false</reference>
+<referencedColumn>30E56843-A2C3-373D-F2D1-D3125B29C8C2</referencedColumn>
+<table>C41DBCD7-0E23-728D-EFEF-CDE0276D8958</table>
+<tableAlias>I</tableAlias>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="NOME_IMAGEM" id="11BEA824-DA75-4BFA-8860-7AB9C1934A23">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>C059136F-8445-ECF9-0855-24401B3A42E0</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_IMAGEM</alias>
+<dataType>VARCHAR2 (150)</dataType>
+<reference>false</reference>
+<referencedColumn>827F2DC7-7155-B980-59E8-83C7ABFE9352</referencedColumn>
+<table>C41DBCD7-0E23-728D-EFEF-CDE0276D8958</table>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.logical.AttributeView" name="IMAGEM_BASE" id="55186E4C-2AA4-8655-A021-3BE67C4D0E65">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>31ECAE15-879E-F840-82D2-D52DD6CDC960</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>IMAGEM_BASE</alias>
+<dataType>VARCHAR2 (500)</dataType>
+<reference>false</reference>
+<referencedColumn>FBF53F8C-8BDE-777D-D094-A262300FB35A</referencedColumn>
+<table>C41DBCD7-0E23-728D-EFEF-CDE0276D8958</table>
+<viewID>9547E271-80C1-A362-7C0C-8E236F6532B8</viewID>
+</viewElement>
+</viewElements>
+</EntityView>

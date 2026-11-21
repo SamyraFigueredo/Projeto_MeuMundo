@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14248F44-9FB6-AA9E-0438-0C010FE50351" name="TB PONTO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>CD537BD4-0C5F-4029-1121-1DC936335CBC</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD PONTO" id="DB10960A-FB8A-884D-20C8-F5DB1D99F92D">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>92F15FA0-DFFA-DF6C-E86E-BBC2E61D3813</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD TRACO" id="F93F334B-E104-BB6C-4DCE-97AFB6ECD176">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>73D6369C-F747-5B55-362C-78E6881E4DC8</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<referedAttribute>A3915119-2214-4EEB-335D-6028DBD98992</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COORDENADA X" id="E6BF9497-BBB5-A505-4172-60C185C99DAD">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>33FCD4FA-F3E8-A997-1921-3B3438006FB1</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>969B40B4-347B-3FFA-6B7F-9B5077EAE1C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COORDENADA Y" id="FA292561-3F60-C4F4-9242-5D39BB8568FC">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>E637012A-C9A2-9855-EAA3-2A28496A677A</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>969B40B4-347B-3FFA-6B7F-9B5077EAE1C6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDEM" id="2089E2A4-DA13-730D-7C45-195698B5EB0F">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>416D4824-9D2B-07A7-58F7-E35933D1AA0F</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7F48136-5E22-1BC6-BA4C-81B4AD7A5986" name="PK TB PONTO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>4F63E16A-9B79-4D82-5158-AE2E45938A4F</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DB10960A-FB8A-884D-20C8-F5DB1D99F92D</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3E6F1E96-342F-3FA3-7669-AAAEBD85211E" name="UK PONTO ORDEM">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>36F35762-224B-68FB-B9D4-D4419F4ABCAF</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>F93F334B-E104-BB6C-4DCE-97AFB6ECD176</attributeRef>
+<attributeRef>2089E2A4-DA13-730D-7C45-195698B5EB0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

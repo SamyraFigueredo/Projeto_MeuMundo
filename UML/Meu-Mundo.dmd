@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Meu-Mundo" id="D35165EF-550D-9229-FA77-C53C6CD39A6F" version="3.5">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:19:31 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D35165EF-550D-9229-FA77-C53C6CD39A6F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2D6A7949-8A8C-27E7-082E-F4C5FBE39878">
+<designStoragePath>C:\meumundo</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

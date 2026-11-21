@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2138B406-D924-2E63-3134-BAB9A4C049AC" containerWithKeyObject="CD537BD4-0C5F-4029-1121-1DC936335CBC" localFKIndex="9C1EC65D-FC8A-1103-0694-3DAF15DD477C" name="FK_PONTO_TRACO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>219BBCFA-CBC2-4587-8F90-4FD2B9AAAE91</importedID>
+<referredTableLongName>SCH_MEU_MUNDO.TB_TRACO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>908BB261-D918-9AD9-3737-6C3A60A7F37B</referredTableID>
+<keyObject>974EAD53-7326-ACA5-A02C-14B766C380A3</keyObject>
+<referredKeyID>974EAD53-7326-ACA5-A02C-14B766C380A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_TRACO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

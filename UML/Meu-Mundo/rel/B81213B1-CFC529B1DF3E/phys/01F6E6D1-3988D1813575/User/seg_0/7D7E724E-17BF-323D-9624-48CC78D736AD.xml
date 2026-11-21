@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MEU_MUNDO_APP" directorySegmentName="seg_0" id="7D7E724E-17BF-323D-9624-48CC78D736AD">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:48 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<schemaObject>E81F8DA4-63BE-9E06-2F4E-E9AFED3F8E16</schemaObject>
+<defTableSpace>44EB3B1E-6653-08FE-A260-4874CB49986E</defTableSpace>
+<identifier>15C11700836F427499FF3DCE6DABE62993B36EB574FBD72D39435787E571EB1927</identifier>
+<privileges>CREATE SESSION</privileges>
+<temptSGroupName>TEMP</temptSGroupName>
+<permissions>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions1" id="844F545D-93D6-806E-2BC7-2A351234DE26">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions10" id="D6BE8483-E67A-B5EB-F6FB-95C4F01727C4">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>C20272DF-F9D6-BD26-D3B5-067441D152A8</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions11" id="AB8B77E5-F5F1-0A2A-CA46-B7FB33734A16">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>D5997D25-427E-2F30-AAE8-7D53ED88E160</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions12" id="CB137E38-F330-6092-0718-2766D8231F9F">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>24BED0ED-BEFF-CCA0-BA18-D4247769AB3C</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions13" id="581EEA25-C643-B435-DA26-5CBD7E87675F">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>A829E330-A1F0-C937-8792-84CB4307BD20</view>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions2" id="503AA668-0F49-8184-7AB8-8D6A28C245BF">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions3" id="EF40D1B0-482F-0B5E-E0A6-F5356408EEA6">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<table>F31698D7-2718-3364-F380-B6C28DE08A9E</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions4" id="B7AD2F13-A8ED-271D-BDE0-58F0E975E227">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>8AE5AC00-57B8-77FB-0464-CF1085CE69E2</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions5" id="3B5B274F-3B7B-FD2C-3495-13CF067DA97E">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>F555470E-F0FF-7152-9431-E7ECAFEB3490</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions6" id="A9BF40F5-21FB-60D6-5E01-1BEF4EF8F752">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>76272074-66F9-2A45-0D1C-D568A0DEDC7C</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions7" id="4852893C-764B-1211-2C71-8134A1B80F5C">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>908BB261-D918-9AD9-3737-6C3A60A7F37B</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions8" id="05F4A7CC-61C4-8101-7263-143818F17FD2">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT, INSERT, UPDATE, DELETE</privileges>
+<table>CD537BD4-0C5F-4029-1121-1DC936335CBC</table>
+</Permission>
+<Permission class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PermissionsOraclev10g" name="Permissions9" id="216F9FD3-5D81-4A11-6358-FBE1F37BC279">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<privileges>SELECT</privileges>
+<view>7A7CCA36-9497-FBCC-1D01-4521CEF1F29E</view>
+</Permission>
+</permissions>
+</UserOraclev10g>

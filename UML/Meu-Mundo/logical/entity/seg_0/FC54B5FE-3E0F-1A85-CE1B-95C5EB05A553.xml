@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC54B5FE-3E0F-1A85-CE1B-95C5EB05A553" name="TB TRACO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>908BB261-D918-9AD9-3737-6C3A60A7F37B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD TRACO" id="A3915119-2214-4EEB-335D-6028DBD98992">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>7AB07A1A-FA02-08C1-2DB2-E6B53753DBF3</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD DESENHO" id="73ACF11D-795B-D626-CD85-1B9E993989D3">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>8A6B08DA-A92E-67B5-1D63-D906CD1FF556</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<referedAttribute>6D4C2D31-4330-46EE-EC36-990CFA3C6A1D</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COR" id="122BBA31-A10E-6107-0D26-53C39D9149F6">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>91700A41-0A30-EC8A-44A2-B06FEE774790</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>611D3202-A645-E3E5-FEBC-2584FCFFE30B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESPESSURA" id="8F553F20-95A0-6BFE-A999-7A3890B31E7A">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>F9A08372-A05C-A094-0B4C-8283D80BFD0E</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>6932E995-43D1-0E47-3EC9-0BC318BF135C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FERRAMENTA" id="FEEE2569-8700-F7D9-B0A2-5DADCA587629">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>8287462A-AFCF-4D4D-AF17-A251D0DDAFC6</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43B07EDD-5714-947E-7175-116C55916449</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ORDEM" id="70DDEA58-760D-A45F-1B82-13EC235D1FF1">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>C02E533F-6EA6-5635-7748-8EF8800D488A</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1168B20-6176-7CC4-6DA4-7C59B3B65AD0" name="PK TB TRACO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>974EAD53-7326-ACA5-A02C-14B766C380A3</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3915119-2214-4EEB-335D-6028DBD98992</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

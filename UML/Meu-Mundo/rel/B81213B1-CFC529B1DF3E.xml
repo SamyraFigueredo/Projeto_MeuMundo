@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="B81213B1-C591-3040-1548-CFC529B1DF3E" mainViewID="026D1AB0-1A87-5904-26E4-6F4DA7D9A477">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:19:32 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>meumundo.txt</fileName>
+<pathName>C:\Users\samyr\OneDrive\Documentos\MEU_MUNDO</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

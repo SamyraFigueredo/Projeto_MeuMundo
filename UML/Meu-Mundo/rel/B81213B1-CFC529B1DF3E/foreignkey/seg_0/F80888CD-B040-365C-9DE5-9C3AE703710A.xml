@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F80888CD-B040-365C-9DE5-9C3AE703710A" containerWithKeyObject="47A78E80-1F3D-866A-406B-62F78313D194" localFKIndex="57646604-C0ED-598E-3BA5-1D331A2ED215" name="FK_HISTORIA_USUARIO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>0B1739D1-CC66-7AEB-06F1-A1C4E1FC53B4</importedID>
+<referredTableLongName>SCH_MEU_MUNDO.TB_USUARIO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</referredTableID>
+<keyObject>C314A9CB-2EB8-14D5-F126-6F9BF722F0B1</keyObject>
+<referredKeyID>C314A9CB-2EB8-14D5-F126-6F9BF722F0B1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_USUARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

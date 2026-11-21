@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24936EE6-A01D-B99E-BC24-E74B03FCAA3C" name="TB DESENHO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>76272074-66F9-2A45-0D1C-D568A0DEDC7C</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="COD DESENHO" id="6D4C2D31-4330-46EE-EC36-990CFA3C6A1D">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>6A5C45CC-C5BC-2B43-3646-E99FF6F96155</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD USUARIO" id="ACCB2F7A-993A-F443-D16D-4D5E81557FFC">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>EBCF971F-4D54-3389-A7A3-258ACDD97F5D</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<referedAttribute>FBEA7C28-6A84-29E6-9C7F-2BEA4F248D8A</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COD IMAGEM" id="CF0DEBDA-32E6-F686-3654-0C9A420ECB5D">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>C05E8CEE-9124-9099-0B39-65422ED25251</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>30E56843-A2C3-373D-F2D1-D3125B29C8C2</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULO" id="FEAE6C87-7265-F59D-A350-3053D4FA9057">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>EE714ED9-FACA-CE79-4766-54455FDFC68B</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9FCAC25D-0629-FE10-0C2F-92F860F59FF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO" id="B663DA8A-C822-4F2F-46A5-5F702F3AB257">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>2E3E4D55-56A1-CF38-F67A-128354C8F30D</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43B07EDD-5714-947E-7175-116C55916449</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CAMINHO PREVIEW" id="77BEBE21-500B-8F72-3418-1EF6116712F0">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>532FFF07-58D4-4233-73E5-B24E8510B4DF</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27FFD99B-7547-5597-2663-E51C48288F99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA CRIACAO" id="9D72D2A6-A61B-A3BF-3BAC-BB49D01CFC35">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>1D1809DE-F174-D474-5F51-F0E3555BE4E7</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A6C05195-423B-1E55-6358-2687FF6E3261</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA ATUALIZACAO" id="79ADB819-D7C8-34E7-5F57-E062C052BDAC">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>A608C98F-F3C4-CAB1-AFCD-7F4D7F4ABAA7</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A6C05195-423B-1E55-6358-2687FF6E3261</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D7563EC9-0DF2-8876-A299-9DA29B51F7F1" name="PK TB DESENHO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>CBD0703B-A9C0-6EC1-8384-AE0158CEE698</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6D4C2D31-4330-46EE-EC36-990CFA3C6A1D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

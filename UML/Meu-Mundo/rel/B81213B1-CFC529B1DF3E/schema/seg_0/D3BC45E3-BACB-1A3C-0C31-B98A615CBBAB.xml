@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="MEU_MUNDO_CONSULTA" directorySegmentName="seg_0" id="D3BC45E3-BACB-1A3C-0C31-B98A615CBBAB">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>66BFB1B7-649F-BC03-0678-5CB4C792E22E</importedID>
+</SchemaObject>

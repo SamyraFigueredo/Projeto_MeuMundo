@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_IMAGEM_USUARIO" directorySegmentName="seg_0" id="06E645FB-28C5-53AE-F58E-651174DA9188">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>D6F71F33-7445-23DB-D2F8-93DDE9875444</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<sourcePk>EF0DDF31-89CB-17EF-004D-90C41C26C96B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1BC220D6-B8EA-4814-088B-61536EDFECA0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C41DBCD7-0E23-728D-EFEF-CDE0276D8958</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

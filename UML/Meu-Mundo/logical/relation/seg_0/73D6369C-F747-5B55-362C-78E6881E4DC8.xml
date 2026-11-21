@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PONTO_TRACO" directorySegmentName="seg_0" id="73D6369C-F747-5B55-362C-78E6881E4DC8">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:27:02 UTC</createdTime>
+<generatorID>2138B406-D924-2E63-3134-BAB9A4C049AC</generatorID>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<engineerTo>
+<item key="B81213B1-C591-3040-1548-CFC529B1DF3E" value="true"/>
+</engineerTo>
+<sourcePk>A1168B20-6176-7CC4-6DA4-7C59B3B65AD0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FC54B5FE-3E0F-1A85-CE1B-95C5EB05A553</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14248F44-9FB6-AA9E-0438-0C010FE50351</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

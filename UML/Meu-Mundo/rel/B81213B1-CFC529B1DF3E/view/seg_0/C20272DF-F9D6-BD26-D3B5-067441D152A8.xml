@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="C20272DF-F9D6-BD26-D3B5-067441D152A8" schemaObject="D3BC45E3-BACB-1A3C-0C31-B98A615CBBAB" name="VW_HISTORIAS">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>95E1CD3D-2830-8FB8-B710-7105419AE2F8</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    H.COD_HISTORIA,
+    H.TITULO,
+    H.DESCRICAO,
+    H.DATA_CRIACAO,
+    H.DATA_ATUALIZACAO,
+    U.COD_USUARIO,
+    U.NOME AS NOME_USUARIO,
+    U.EMAIL
+FROM TB_HISTORIA H
+INNER JOIN TB_USUARIO U
+    ON U.COD_USUARIO = H.COD_USUARIO]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_HISTORIA" id="829D297E-74D9-B885-08E8-B18727DBD500">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_HISTORIA</headerAlias>
+<reference>false</reference>
+<referencedColumn>2ACFA109-EB64-4AEE-8FB2-E0088CDD7BF5</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITULO" id="7367AE04-CFF2-795E-A150-2C7FAA19A28D">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>TITULO</headerAlias>
+<reference>false</reference>
+<referencedColumn>BCD344D3-244F-5412-940D-6265E44E842B</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DESCRICAO" id="F0911604-AD01-942B-565E-8C2C6DB717E9">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>CLOB</dataType>
+<headerAlias>DESCRICAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>85057FCD-3412-BE42-F175-C7AFA1C04C8A</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_CRIACAO" id="6368278D-6A86-2B8C-F25D-EB029436B3E2">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DATA_CRIACAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>C05451D3-5AA9-2E2D-267C-4462D7EE338F</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DATA_ATUALIZACAO" id="7E6AE141-0557-273E-5520-17CDB849A6CC">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>DATE</dataType>
+<headerAlias>DATA_ATUALIZACAO</headerAlias>
+<reference>false</reference>
+<referencedColumn>1C2D63E9-A965-43A4-C44C-02B423421401</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_USUARIO" id="EBDF11AD-2772-A121-0B83-8030387FB4BF">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_USUARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>39CC4103-596C-06A0-BC13-4D95F3B8EC61</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<tableAlias>U</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_USUARIO" id="DEB36F42-32DF-BDEB-9CB8-69972B57A75C">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_USUARIO</alias>
+<dataType>VARCHAR2 (120)</dataType>
+<headerAlias>NOME_USUARIO</headerAlias>
+<reference>false</reference>
+<referencedColumn>3C975447-604B-D205-22A8-D359FD4E24B5</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EMAIL" id="8BA1C18C-5A92-ED5F-4E48-A8E24097BBBE">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>EMAIL</headerAlias>
+<reference>false</reference>
+<referencedColumn>5A1ACF77-4B6A-C35E-AAA2-9845455C04E4</referencedColumn>
+<table>33A90C60-011C-DA5F-D5D4-3FBD9ACA413E</table>
+<tableAlias>U</tableAlias>
+<viewID>C20272DF-F9D6-BD26-D3B5-067441D152A8</viewID>
+</viewElement>
+</viewElements>
+</TableView>

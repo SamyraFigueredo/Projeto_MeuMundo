@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2B9A0828-7D2D-0482-1544-1E0B739E0164" containerWithKeyObject="8AE5AC00-57B8-77FB-0464-CF1085CE69E2" localFKIndex="48D7E5F0-ACEF-6D53-7244-5B605620736D" name="FK_HE_ELEMENTO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>2C1E47D6-A52B-F28D-DE82-C33C3990B2FB</importedID>
+<referredTableLongName>SCH_MEU_MUNDO.TB_ELEMENTO_VISUAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F31698D7-2718-3364-F380-B6C28DE08A9E</referredTableID>
+<keyObject>35D01EEA-D947-092F-CBF7-CA81FF719634</keyObject>
+<referredKeyID>35D01EEA-D947-092F-CBF7-CA81FF719634</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>COD_ELEMENTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

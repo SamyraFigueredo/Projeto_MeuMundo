@@ -1,0 +1,186 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76272074-66F9-2A45-0D1C-D568A0DEDC7C" schemaObject="7A3506E8-1A29-8309-CD6B-955EB81C1C2D" name="TB_DESENHO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>DC3BFE7D-ACA6-519F-B2C9-DAA89357DA63</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COD_DESENHO" id="6A5C45CC-C5BC-2B43-3646-E99FF6F96155">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>05559B8C-C51B-414B-D887-28EC6B068864</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="COD_USUARIO" id="31DDFD60-907C-9FC4-4642-B8233B340437">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>0B29AA45-1250-8443-3375-0524CBFDF6B1</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="24C0DFBD-2F26-A229-5B4E-216DDFCEFC97" referredColumn="39CC4103-596C-06A0-BC13-4D95F3B8EC61"/>
+</associations>
+</Column>
+<Column name="COD_IMAGEM" id="021B94F7-D690-922C-2E01-0448E4EB85F0">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>5FE143F7-B568-927E-3A2A-B6F9E02BC016</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F9284633-2B7F-58A1-0ADC-35F3F391A65A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFDCF638-04FF-4D19-43D1-F5B79041F5B5" referredColumn="76B996FB-1719-9434-076B-F4EEE17209D2"/>
+</associations>
+</Column>
+<Column name="TITULO" id="EE714ED9-FACA-CE79-4766-54455FDFC68B">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>D1E43CE6-9E3A-F80F-90EB-0464A0BDD107</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9FCAC25D-0629-FE10-0C2F-92F860F59FF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="2E3E4D55-56A1-CF38-F67A-128354C8F30D">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>5D439228-B5BE-AA89-CAAD-74216B4A6E60</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>43B07EDD-5714-947E-7175-116C55916449</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CAMINHO_PREVIEW" id="532FFF07-58D4-4233-73E5-B24E8510B4DF">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>A2C846BC-FCE7-64F0-296E-C35EEA91579E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>27FFD99B-7547-5597-2663-E51C48288F99</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_CRIACAO" id="1D1809DE-F174-D474-5F51-F0E3555BE4E7">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>BD4FD6ED-317F-2D4E-D8CE-2FDF24D9C610</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A6C05195-423B-1E55-6358-2687FF6E3261</domain>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ATUALIZACAO" id="A608C98F-F3C4-CAB1-AFCD-7F4D7F4ABAA7">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>498A3ECD-B513-509C-1250-DDE9412A2FE7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>A6C05195-423B-1E55-6358-2687FF6E3261</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CBD0703B-A9C0-6EC1-8384-AE0158CEE698" name="PK_TB_DESENHO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>1D7A7F9E-0755-911C-1F45-FB2FD1759BEB</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A5C45CC-C5BC-2B43-3646-E99FF6F96155"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEA49ACE-2C28-EDB1-F754-192E3EE9E5C0" name="IDX_DESENHO_USUARIO">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>DE757A0A-ABA7-4DA4-BF6B-AAE46DA81A82</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DDFD60-907C-9FC4-4642-B8233B340437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9304D2E9-84B8-2E57-E630-FFD5EC1295EF" name="FK_DESENHO_IMAGEM">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="021B94F7-D690-922C-2E01-0448E4EB85F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="296975A9-B5EC-35DC-3B16-F87CE00857C7" name="FK_DESENHO_USUARIO">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31DDFD60-907C-9FC4-4642-B8233B340437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_DESENHO_TIPO" directorySegmentName="seg_0" id="8274DB66-250F-C948-EBE0-FB33024AFDA4">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>7B1EC07D-E077-376B-00DF-12EDCA2E7BE5</importedID>
+<rule><![CDATA[TIPO IN ('LIVRE', 'COLORIDO')]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="CK_DESENHO_IMAGEM" directorySegmentName="seg_0" id="839FEA56-9FF5-1C76-5997-0C490F0B7E0C">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>F99731FE-FF9F-7496-2EA8-168AD6051866</importedID>
+<rule><![CDATA[(TIPO = 'LIVRE' AND COD_IMAGEM IS NULL) OR (TIPO = 'COLORIDO' AND COD_IMAGEM IS NOT NULL)]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

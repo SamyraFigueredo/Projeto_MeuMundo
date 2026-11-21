@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFDCF638-04FF-4D19-43D1-F5B79041F5B5" containerWithKeyObject="76272074-66F9-2A45-0D1C-D568A0DEDC7C" localFKIndex="9304D2E9-84B8-2E57-E630-FFD5EC1295EF" name="FK_DESENHO_IMAGEM">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>919B8306-5DFC-2E47-91A2-83140471D7D8</importedID>
+<referredTableLongName>SCH_MEU_MUNDO.TB_IMAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F555470E-F0FF-7152-9431-E7ECAFEB3490</referredTableID>
+<keyObject>CD6369DE-5005-875B-AF41-FA638CBD6A08</keyObject>
+<referredKeyID>CD6369DE-5005-875B-AF41-FA638CBD6A08</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>COD_IMAGEM</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

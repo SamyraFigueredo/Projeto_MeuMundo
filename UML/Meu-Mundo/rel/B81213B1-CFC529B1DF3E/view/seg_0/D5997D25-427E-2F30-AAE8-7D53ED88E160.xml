@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="D5997D25-427E-2F30-AAE8-7D53ED88E160" schemaObject="D3BC45E3-BACB-1A3C-0C31-B98A615CBBAB" name="VW_ELEMENTOS_HISTORIA">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<importedID>7A044A02-EEE9-25D8-B58A-975F5D6DD3A0</importedID>
+<userDefined>true</userDefined>
+<userDefinedSQL><![CDATA[SELECT
+    HE.COD_HISTORIA_ELEMENTO,
+    H.COD_HISTORIA,
+    H.TITULO AS TITULO_HISTORIA,
+    E.COD_ELEMENTO,
+    E.NOME AS NOME_ELEMENTO,
+    E.TIPO,
+    E.CAMINHO_IMAGEM,
+    HE.ORDEM
+FROM TB_HISTORIA_ELEMENTO HE
+INNER JOIN TB_HISTORIA H
+    ON H.COD_HISTORIA = HE.COD_HISTORIA
+INNER JOIN TB_ELEMENTO_VISUAL E
+    ON E.COD_ELEMENTO = HE.COD_ELEMENTO]]></userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_HISTORIA_ELEMENTO" id="BF20932A-85E7-110C-E42E-FBD2B1F130B3">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_HISTORIA_ELEMENTO</headerAlias>
+<reference>false</reference>
+<referencedColumn>08088C76-B1F5-6F38-DC6E-4024AB6F00C2</referencedColumn>
+<table>8AE5AC00-57B8-77FB-0464-CF1085CE69E2</table>
+<tableAlias>HE</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_HISTORIA" id="B458B5C6-91B4-5EBD-4881-50209361CF67">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_HISTORIA</headerAlias>
+<reference>false</reference>
+<referencedColumn>2ACFA109-EB64-4AEE-8FB2-E0088CDD7BF5</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<tableAlias>H</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TITULO_HISTORIA" id="AD7AE433-156B-BDC3-6ED4-4A297AE44628">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>TITULO_HISTORIA</alias>
+<dataType>VARCHAR2 (150)</dataType>
+<headerAlias>TITULO_HISTORIA</headerAlias>
+<reference>false</reference>
+<referencedColumn>BCD344D3-244F-5412-940D-6265E44E842B</referencedColumn>
+<table>47A78E80-1F3D-866A-406B-62F78313D194</table>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="COD_ELEMENTO" id="00CF7590-A2D4-9B3D-F3C8-5BB4B38BED74">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>COD_ELEMENTO</headerAlias>
+<reference>false</reference>
+<referencedColumn>A8824CE4-4ED5-5D4B-0F05-C5096FCEEC43</referencedColumn>
+<table>F31698D7-2718-3364-F380-B6C28DE08A9E</table>
+<tableAlias>E</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="NOME_ELEMENTO" id="283A948B-8759-1DC7-8AA7-BB5902DCE775">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>NOME_ELEMENTO</alias>
+<dataType>VARCHAR2 (120)</dataType>
+<headerAlias>NOME_ELEMENTO</headerAlias>
+<reference>false</reference>
+<referencedColumn>9F5AF53E-D612-2F0C-3150-296D6104527A</referencedColumn>
+<table>F31698D7-2718-3364-F380-B6C28DE08A9E</table>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="TIPO" id="A99F4567-3266-B0D1-65B4-620DA963BBED">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (20)</dataType>
+<headerAlias>TIPO</headerAlias>
+<reference>false</reference>
+<referencedColumn>F240A2E7-BE59-D817-56F8-6101FBE0D524</referencedColumn>
+<table>F31698D7-2718-3364-F380-B6C28DE08A9E</table>
+<tableAlias>E</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="CAMINHO_IMAGEM" id="92053112-F2FA-8A75-55F7-7C0FA2AA48BB">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>VARCHAR2 (500)</dataType>
+<headerAlias>CAMINHO_IMAGEM</headerAlias>
+<reference>false</reference>
+<referencedColumn>5CD96731-3D79-4AE9-4517-E046E4AD57B5</referencedColumn>
+<table>F31698D7-2718-3364-F380-B6C28DE08A9E</table>
+<tableAlias>E</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ORDEM" id="923B4B89-B8F7-A7FC-68D0-0C7EADC3E87E">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<dataType>NUMBER</dataType>
+<headerAlias>ORDEM</headerAlias>
+<reference>false</reference>
+<referencedColumn>E23DCC88-842C-078E-3E2E-1C2EF4CADF76</referencedColumn>
+<table>8AE5AC00-57B8-77FB-0464-CF1085CE69E2</table>
+<tableAlias>HE</tableAlias>
+<viewID>D5997D25-427E-2F30-AAE8-7D53ED88E160</viewID>
+</viewElement>
+</viewElements>
+</TableView>

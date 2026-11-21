@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SCH_MEU_MUNDO" directorySegmentName="seg_0" id="DB409B12-B1EB-1689-192E-286B2416E8F9">
+<sourceDDLFile>meumundo.txt</sourceDDLFile>
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:48 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<schemaObject>7A3506E8-1A29-8309-CD6B-955EB81C1C2D</schemaObject>
+<defTableSpace>44EB3B1E-6653-08FE-A260-4874CB49986E</defTableSpace>
+<identifier>1570E93504A9210E27F3979596EAFED56D6AADC64AB27170C1A11C274388120D96</identifier>
+<privileges>CREATE PROCEDURE, CREATE SEQUENCE, CREATE SESSION, CREATE TABLE, CREATE TRIGGER, CREATE VIEW</privileges>
+<temptSGroupName>TEMP</temptSGroupName>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="9C41B6CE-8EDD-28BB-3162-F0455EF65C74">
+<createdBy>samyr</createdBy>
+<createdTime>2026-11-20 23:20:58 UTC</createdTime>
+<ownerDesignName>Meu-Mundo</ownerDesignName>
+<tableSpace>44EB3B1E-6653-08FE-A260-4874CB49986E</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>
