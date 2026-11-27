@@ -15,5 +15,11 @@ public class DesenhoBo {
                     "O desenho precisa estar associado a um usuário."
             );
         }
+        if (desenho.getTitulo() == null ||
+                desenho.getTitulo().isBlank()) {
+            throw new IllegalArgumentException(
+                    "O título do desenho é obrigatório."
+            );
+        }
     }
 }
