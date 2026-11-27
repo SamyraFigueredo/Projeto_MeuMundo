@@ -1,6 +1,6 @@
-package Bo;
+package br.com.meumundo.Bo;
 
-import Model.ElementoVisual;
+import br.com.meumundo.Model.ElementoVisual;
 
 public class ElementoVisualBo {
     public void validarElementoVisual(ElementoVisual elemento) {

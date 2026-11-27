@@ -1,4 +1,4 @@
-package Model;
+package br.com.meumundo.Model;
 
 public class ElementoHistoria {
     private Long codElementoHistoria;

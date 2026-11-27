@@ -1,5 +1,5 @@
 
-package Model;
+package br.com.meumundo.Model;
 
 public class ElementoVisual {
 

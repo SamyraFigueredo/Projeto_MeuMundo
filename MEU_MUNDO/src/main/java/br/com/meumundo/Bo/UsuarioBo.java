@@ -1,6 +1,6 @@
-package Bo;
+package br.com.meumundo.Bo;
 
-import Model.Usuario;
+import br.com.meumundo.Model.Usuario;
 
 public class UsuarioBo {
 

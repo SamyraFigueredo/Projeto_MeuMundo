@@ -1,6 +1,6 @@
-package Bo;
+package br.com.meumundo.Bo;
 
-import Model.Desenho;
+import br.com.meumundo.Model.Desenho;
 
 public class DesenhoBo {
     public void validarDesenho(Desenho desenho) {

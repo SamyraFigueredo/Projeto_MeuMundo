@@ -1,8 +1,7 @@
 package br.com.meumundo.Bo;
 
-import Bo.UsuarioBo;
-import Model.PerfilUsuario;
-import Model.Usuario;
+import br.com.meumundo.Model.PerfilUsuario;
+import br.com.meumundo.Model.Usuario;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

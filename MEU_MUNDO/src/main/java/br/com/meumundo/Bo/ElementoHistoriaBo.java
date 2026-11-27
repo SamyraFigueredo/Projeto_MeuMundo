@@ -1,6 +1,6 @@
-package Bo;
+package br.com.meumundo.Bo;
 
-import Model.ElementoHistoria;
+import br.com.meumundo.Model.ElementoHistoria;
 
 public class ElementoHistoriaBo {
     public void validarHistoriaElemento(ElementoHistoria historiaElemento) {
