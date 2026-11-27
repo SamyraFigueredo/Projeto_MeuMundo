@@ -14,4 +14,11 @@ public class HistoriaBo {
                     "A história precisa estar associada a um usuário."
             );
         }
-    }}
+        if (historia.getTitulo() == null ||
+                historia.getTitulo().isBlank()) {
+            throw new IllegalArgumentException(
+                    "O título da história é obrigatório."
+            );
+        }
+    }
+}
