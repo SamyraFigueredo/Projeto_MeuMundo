@@ -1,6 +1,7 @@
 package br.com.meumundo.Vo;
 
 import br.com.meumundo.Model.PerfilUsuario;
+import br.com.meumundo.Model.Usuario;
 
 public class UsuarioVo {
     private Long codUsuario;
@@ -48,5 +49,9 @@ public class UsuarioVo {
 
     public void setPerfil(PerfilUsuario perfil) {
         this.perfil = perfil;
+    }
+
+    public static UsuarioVo fromUsuario(Usuario usuario) {return new UsuarioVo(
+            usuario.getCodUsuario(), usuario.getNome(), usuario.getEmail(), usuario.getPerfil());
     }
 }
